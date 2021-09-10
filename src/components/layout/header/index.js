@@ -16,7 +16,7 @@ export default function Header({ headerItems }) {
   return (
     <Outer>
       <Logo as={Link} to="/">
-        <img src={ShopLogo} alt="" width="207" height="35" />
+        Test <img src={ShopLogo} alt="" width="207" height="35" />
       </Logo>
       <Nav open={navOpen}>
         <NavList>

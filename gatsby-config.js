@@ -22,6 +22,7 @@ module.exports = {
     crystallizeApiUrlBase,
   },
   plugins: [
+    `gatsby-plugin-gatsby-cloud`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
